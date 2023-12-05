@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c5"
+    android:orientation="vertical"
+    tools:context=".Users_home" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Home"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/btzone"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Containment Zone" />
+    
+
+    
+    <Button
+        android:id="@+id/bthosptail"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Hospitals" />
+
+    <Button
+        android:id="@+id/btbooking"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="View Bookings" />
+
+            <Button
+        android:id="@+id/btnoti"
+        android:layout_width="match_parent"
+                android:layout_height="68dp"
+
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Notification" />
+
+        <Button
+            android:id="@+id/btevent"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginHorizontal="20dp"
+
+            android:layout_marginTop="15dp"
+            android:text="Events" />
+
+
+            <Button
+                android:id="@+id/btlogout"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Logout" />
+     
+   </LinearLayout>
+    </ScrollView>
+</LinearLayout>

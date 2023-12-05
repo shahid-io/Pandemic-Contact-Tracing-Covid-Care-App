@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/c2"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/btv_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Events" />
+
+            <Spinner
+                android:id="@+id/spworker"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/etevent"
+                android:layout_width="match_parent"
+                android:textStyle="bold|italic"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:hint="Enter Event Name"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/etdes"
+                android:layout_width="match_parent"
+                android:hint="Enter Description"
+                android:textStyle="bold|italic"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etvenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:hint="Enter Venue"
+                android:inputType="text"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/etguest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter No.Of Guest"
+                android:textStyle="bold|italic"
+                android:ems="10"
+                android:digits="0123456789"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Date"
+                android:textStyle="bold|italic"
+                android:ems="10"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/ettime"
+                android:layout_width="match_parent"
+                android:textStyle="bold|italic"
+                android:layout_height="wrap_content"
+                android:hint="Enter Time"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:ems="10" />
+
+
+
+            <Button
+                android:id="@+id/btevent"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#000"
+                android:textColor="#ffffff"
+                android:text="Send" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
